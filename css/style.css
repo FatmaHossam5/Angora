@@ -1,0 +1,370 @@
+
+
+:root{
+    --main-color:#f25454!important;
+}
+
+
+.head-title h2{
+    font-weight: 900;
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.alt-color{
+    color: var(--main-color)!important;
+}
+.navbar{
+    font-family:'Poppins', sans-serif ;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(255,255, 255, 0.3);
+}
+.nav-link:hover{
+    color: var(--main-color)!important;
+}
+.set-icon{
+
+    top:25%;
+    z-index: 3;
+}
+.indicators{
+    left: 0%;
+    top:35%;
+    overflow: hidden;  
+   
+}
+
+
+.fa-angle-left:hover{
+    color: var(--main-color)!important;
+    background-color: #fff;
+    transition: all 1s linear;
+ 
+ 
+}
+.fa-angle-right:hover{
+    color: var(--main-color)!important;
+    background-color: #fff;
+    transition: all 1s linear;
+}
+.smooth-mouse{
+    width: 30px;
+    height: 50px;
+    border:2px solid white;
+    bottom: 5%;
+}
+.smooth-mouse::after{
+    content: "";
+    width: 10PX;
+    height: 10PX;
+    position: absolute; 
+    bottom: 28px;
+    left: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+
+}
+.about-title h2 , .team-title h2 , .service-title h2 , .client-title h2  , .contact-title h2{
+    color: #F2F2F2;
+    font-size: 100px;
+    position: relative;
+ 
+
+} 
+.about-title h2::before{
+    content: "About Us";
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 38px;
+    font-weight: 700;
+    transform: translate(-50%,-50%);
+    color: black;
+
+}
+.about-title h2::after , .team-title h2::after , .service-title h2::after , .client-title h2::after , .contact-title h2::after{
+    content: "";
+    position: absolute;
+    top: 90%;
+    left: 49%;
+    right: 49%;
+    height: 1px;
+    transition: 0.5s all;
+    font-size: 38px;
+    font-weight: 700;
+    background-color: black;
+}
+.about-title:hover h2::after , .team-title:hover h2::after ,.service-title:hover h2::after ,.client-title:hover h2::after  , .contact-title:hover h2::after{
+    left: 48%;
+    right: 48%;
+}
+.about-title p, .team-title p ,.service-title p ,.client-title p ,.contact-title p{
+    color: #999999;
+    font-size: 18px;
+}
+.about-content p{
+    color: #444444; 
+}
+.bar .heading p{
+    color: #444444;
+
+}
+ .bar .hd80 {
+    width: 80%;
+  }
+ .bar .hd95 {
+    width: 95%;
+  }
+  .bar .hd85 {
+    width: 85%;
+  }
+  .row .bar .hd70 {
+    width: 70%;
+  }
+.bar .progress {
+    height: 4px;
+    background-color: #eee;
+
+  }
+
+ .Branding {
+    animation: branding 2s ease-in-out;
+  }
+  @keyframes branding {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+.Web {
+    animation: Web 2s ease-in-out;
+  }
+  @keyframes Web {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 95%;
+    }
+  }
+  .Graphic {
+    animation: Graphic 2s ease-in-out;
+  }
+  @keyframes Graphic {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 85%;
+    }
+  }
+ .Development {
+    animation: Development 2s ease-in-out;
+  }
+  @keyframes Development {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  .team-title h2::before{
+    content: "Our Team";
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    font-size: 38px;
+    font-weight: 700;
+    transform: translate(-50%,-50%);
+    color: black;
+
+}
+
+.overlay{
+    opacity: 0;
+    transition: all 1s;
+}
+.card:hover .overlay{
+    opacity: 0.8;
+}
+img{
+    transition: all 1s;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.card:hover p{
+    color: var(--main-color);
+}
+.card{
+    border: unset;
+}
+.btn{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 12px 27px;
+    font-size: 14px;
+  font-weight: 600;
+}
+.question h3{
+    font-size: 32px;
+}
+.bttn:hover{
+    opacity: 0.7;
+}
+.service-title h2::before{
+    content: "Service";
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 38px;
+    font-weight: 700;
+    transform: translate(-50%,-50%);
+    color: black;
+
+}
+.serv-details h3{
+    font-size: 19px;
+    color: #282828;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.serv-items:hover h3{
+    color: var(--main-color);
+}
+.serv-details p{
+    font-size: 14px;
+    color: #666;
+}
+#service{
+    background-color: #FAFAFA;
+}
+.client-title h2::before{
+    content: "client Reviews";
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 38px;
+    font-weight: 700;
+    transform: translate(-50%,-50%);
+    color: black;
+
+}
+
+  .contact-title h2::before{
+    content: "Get In Touch";
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 38px;
+    font-weight: 700;
+    transform: translate(-50%,-50%);
+    color: black;
+
+}
+.carousel-indicators {
+    position: static;
+
+}
+
+.carousel-caption {
+    position: static;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--main-color);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.img-slider {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.carousel .active {
+    visibility: visible;
+}
+
+.contact form input, .contact form textarea{
+    border-color: #eee;
+    color: #a6a6a6;
+    border: 1px solid #eee;
+}
+#contact{
+    background-color: #FAFAFA;
+}
+.content p {
+    color: #666;
+    font-size: 14px;
+  }
+  .content h5 {
+    color: #282828;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .content h5:hover {
+    color:var(--main-color);
+  }
+  #shortcuts{
+      background-image: url(../images/dotted-map.png);
+      background-size: 100% 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-color: #222
+  }
+  .shortcuts-items p ,.links   {
+    color: #b0b0b0;
+}
+.sh-btn{
+    border-color: #b0b0b0;
+    font-size: 14px;
+    margin: 0px 8px 8px 0px;
+    padding: 2px 10px;
+    color: #b0b0b0;
+    border-radius: 3px;
+   background-color:transparent;
+}
+.shortcuts .container .row .shortcuts-items ul li a:hover {
+    color:var(--main-color);
+  }
+  .shortcuts .container .row .shortcuts-items .sh-btn:hover{
+    border-color: var(--main-color);
+    color: var(--main-color);
+    background-color: transparent;
+  }
+ #footer{
+    background-color: #1a1a1a;
+ } 
+  .copyright{
+    color: #b0b0b0;
+  }
+  .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    margin: auto;
+    opacity: 0.4;
+    position: absolute;
+    bottom: 88%;
+    left: 50%;
+    
+   
+  }
+  .icon i{
+    color: #fff;
+    font-size: 30px;
+  }
+ .footer-icons i:hover{
+      color: var(--main-color)!important;
+  }
